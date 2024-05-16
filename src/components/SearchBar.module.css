@@ -1,0 +1,28 @@
+.search-bar-container {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  font-size: 26px;
+  outline: none;
+  border: 2px solid #222;
+}
+
+.search-bar::placeholder {
+  color: #aaa;
+}
+
+.search-bar:focus {
+  border: 2px solid #ff8c00;
+}
+
+.button {
+  flex: 1;
+  margin-left: 10px;
+}

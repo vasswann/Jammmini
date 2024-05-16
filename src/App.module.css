@@ -1,0 +1,30 @@
+.App {
+  /* background-color: #121212; */
+  position: relative;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  opacity: 100;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.header_spam {
+  color: orange;
+}
+
+.trackListContainer {
+  display: grid;
+  grid-template-columns: 60% auto;
+  gap: 20px;
+  width: 70vw;
+  margin-top: 20px;
+}

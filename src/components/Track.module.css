@@ -1,0 +1,45 @@
+.track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.track:last-child {
+  border-bottom: none;
+}
+
+.trackInfo {
+  flex-grow: 1;
+}
+
+.trackName {
+  font-size: 18px;
+  color: #fff;
+}
+
+.trackDetails {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.addButton {
+  background-color: #ff8c00;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  margin-left: 10px;
+}
+
+.addButton:hover {
+  background-color: #e07b00;
+}

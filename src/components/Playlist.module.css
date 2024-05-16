@@ -1,0 +1,10 @@
+.playlistContainer {
+  background-color: rgba(34, 34, 34, 0.8);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
