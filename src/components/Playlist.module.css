@@ -1,4 +1,4 @@
-.playlistContainer {
+/* .playlistContainer {
   background-color: rgba(34, 34, 34, 0.8);
   padding: 20px;
   display: flex;
@@ -7,4 +7,39 @@
   align-items: center;
   width: 100%;
   box-sizing: border-box;
+} */
+
+.playlistContainer {
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: rgba(34, 34, 34, 0.8);
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.playlistContainer h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.playlistTitleInput {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  margin: 0 auto 20px auto;
+  font-size: 16px;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  color: #aaa;
+}
+
+.search-bar::placeholder {
+  color: #aaa;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
 }
